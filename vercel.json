@@ -2,10 +2,7 @@
     "builds": [
         {
             "src": "Forecasting_API/wsgi.py",
-            "use": "@ardnt/vercel-python-wsgi",
-            "config": {
-                "maxLambdaSize": "15mb"
-            }
+            "use": "@ardnt/vercel-python-wsgi"
         }
     ],
     "routes": [
