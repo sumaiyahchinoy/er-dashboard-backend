@@ -13,5 +13,8 @@
             "src": "/(.*)",
             "dest": "Forecasting_API/wsgi.py"
         }
-    ]
+    ],
+    "functions": {
+        "maxSize": "500mb"
+    }
 }
