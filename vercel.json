@@ -11,8 +11,5 @@
             "src": "/(.*)",
             "dest": "/manage.py"
         }
-    ],
-    "scripts": {
-        "dev": "py manage.py runserver"
-    }
+    ]
 }
