@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from .apps import TSModelApiConfig
+#from .apps import TSModelApiConfig
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .ts_data_extract import get_time_series_data
