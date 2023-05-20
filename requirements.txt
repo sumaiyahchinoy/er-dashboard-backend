@@ -1,0 +1,26 @@
+# asgiref==3.2.10
+# certifi==2023.5.7
+# charset-normalizer==3.1.0
+Django==3.1
+django-cors-headers==3.7.0
+djangorestframework==3.11.1
+# et-xmlfile==1.1.0
+# idna==3.4
+joblib==1.2.0
+numpy==1.24.3
+onedrivesdk==1.1.8
+openpyxl==3.1.2
+# packaging==23.1
+pandas==2.0.1
+# patsy==0.5.3
+python-dateutil==2.8.2
+# pytz==2023.3
+requests==2.30.0
+# scikit-learn==1.2.2
+# scipy==1.10.1
+# six==1.16.0
+# sqlparse==0.4.4
+# statsmodels==0.13.5
+# threadpoolctl==3.1.0
+# tzdata==2023.3
+# urllib3==2.0.2
