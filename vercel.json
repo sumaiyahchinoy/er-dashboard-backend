@@ -4,7 +4,8 @@
             "src": "Forecasting_API/wsgi.py",
             "use": "@vercel/python",
             "config": {
-                "python-version": "3.11.1"
+                "python-version": "3.11.1",
+                "maxLambdaSize": "500mb"
             }
         }
     ],
@@ -13,10 +14,5 @@
             "src": "/(.*)",
             "dest": "Forecasting_API/wsgi.py"
         }
-    ],
-    "functions": {
-        "maxSize": {
-            "default": "500mb"
-        }
-    }
+    ]
 }
