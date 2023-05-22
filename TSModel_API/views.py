@@ -31,12 +31,12 @@ class PatientIncomingPrediction(APIView):
         output_df = pd.DataFrame(y_pred_out)
         output_df.reset_index(inplace=True)
         print(output_df)
-        return Response("Success", status=200) 
+        return Response(output_df, status=200) 
     
-    def get_data_from_external_file(self, request):
-        data = get_time_series_data()  # Call the function from your Python file
-        # Process the data as needed
-        # processed_data = process_data(data)
-        print(data)
+    # def get_data_from_external_file(self, request):
+    #     data = get_time_series_data()  # Call the function from your Python file
+    #     # Process the data as needed
+    #     # processed_data = process_data(data)
+    #     print(data)
 
-        return Response(data, status=200)
+    #     return Response(data, status=200)
