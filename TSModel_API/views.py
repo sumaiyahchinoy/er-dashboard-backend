@@ -33,10 +33,3 @@ class PatientIncomingPrediction(APIView):
         print(output_df)
         return Response(output_df, status=200) 
     
-    # def get_data_from_external_file(self, request):
-    #     data = get_time_series_data()  # Call the function from your Python file
-    #     # Process the data as needed
-    #     # processed_data = process_data(data)
-    #     print(data)
-
-    #     return Response(data, status=200)
